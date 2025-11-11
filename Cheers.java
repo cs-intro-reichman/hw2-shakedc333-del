@@ -7,14 +7,34 @@ public class Cheers {
 
         int i=0;
         String special = "AEFHILMNORSX";
-        
+        /*
+        theirs
+        Give me an E: E!    
+        Give me an X: X!
+        Give me a  C: C!
+        Give me an E: E!
+        Give me an L: L!
+        What does that spell?
+        EXCEL!!!
+        EXCEL!!!
+         */
+        /*
+Give me an E: E!
+Give me an X: X!
+Give me a C: C!
+Give me an E: E!
+Give me an L: L!
+What does that spell?
+EXCEL!!!
+EXCEL!!!
+         */
         int length= upperS.length();
         while (i<length) { 
             char letter= upperS.charAt(i);
             if(special.indexOf(letter)!=-1)
                 System.out.println("Give me an "+letter+": "+letter+"!");
              else   
-                System.out.println("Give me a "+letter+": "+letter+"!");
+                System.out.println("Give me a  "+letter+": "+letter+"!");
 
             i++;
         }
